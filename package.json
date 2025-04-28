@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
+    "start": "node server.js",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "@ctrl/react-adsense": "^1.7.0",
